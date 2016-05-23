@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require './calculator'
 
-class CalculatorSpec <MiniTest::Test
+class CalculatorSpec < MiniTest::Test
 
 	def test_accumalator
 		my_calculator =Calculator.new
